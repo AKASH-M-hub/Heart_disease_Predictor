@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: heart-disease-predictor
+    env: python
+    buildCommand: ""
+    startCommand: python heart_app.py
+    plan: free
